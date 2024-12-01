@@ -53,6 +53,8 @@ router.get('/edit/:id', (req, res)=>{
 
 })
 
+
+
 const crud=require('./controllers/crud');
  router.post('/save', crud.save);
  router.post('/update', crud.update);
@@ -60,4 +62,3 @@ const crud=require('./controllers/crud');
 
 
 module.exports=router;
-
